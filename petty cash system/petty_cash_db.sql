@@ -58,7 +58,5 @@ INSERT INTO users (username, password, role, name, department) VALUES
 ('employee2', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'employee', 'Employee Two', 'HR'),
 ('employee3', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'employee', 'Employee Three', 'Finance');
 
--- Note: The passwords above are hashed versions of 'password' for admin and employees.
--- In a real application, generate unique hashes using password_hash() in PHP.
--- For example: password_hash('yourpassword', PASSWORD_DEFAULT);
+
 
