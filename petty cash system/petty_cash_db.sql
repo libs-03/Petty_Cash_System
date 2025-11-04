@@ -1,9 +1,3 @@
--- Petty Cash System Database Script
--- This script drops the existing database (if it exists) and creates a new one with the same name.
--- It includes all tables, constraints, and sample data.
-
--- Drop the database if it exists
-DROP DATABASE IF EXISTS petty_cash_db;
 
 -- Create the database
 CREATE DATABASE petty_cash_db;
@@ -67,3 +61,4 @@ INSERT INTO users (username, password, role, name, department) VALUES
 -- Note: The passwords above are hashed versions of 'password' for admin and employees.
 -- In a real application, generate unique hashes using password_hash() in PHP.
 -- For example: password_hash('yourpassword', PASSWORD_DEFAULT);
+
